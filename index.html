@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, a {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Dark theme */
+        body {
+            background-color: #181a1b;
+            color: #ffffff;
+        }
+
+        /* Add styles for the Neofetch-like output */
+        .neofetch {
+            background-color: #1e2022;
+            color: #ffffff;
+            border-radius: 10px;
+            font-family: monospace;
+            text-align: left; /* Left-align the text in the Neofetch box */
+            padding: 20px;
+            max-width: 800px;
+            margin: 20px auto 40px; /* Center horizontally and add margin at the top and bottom */
+        }
+
+        .neofetch pre {
+            margin: 0;
+            white-space: pre; /* Preserve whitespace and line breaks */
+            margin-left: 0; /* Remove left margin */
+        }
+
+        /* Center content */
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Style the section with profile info */
+        .profile-section {
+            background-color: #1e2022;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin-bottom: 20px;
+            display: flex; /* Added display flex for layout */
+            align-items: center; /* Align items vertically */
+            gap: 20px; /* Add gap between elements */
+        }
+
+        /* Add styles for the Callum Duncan and location */
+        .profile-name {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700; /* Increased font weight */
+            font-size: 24px;
+            margin: 0; /* Removed top and bottom margin */
+        }
+
+        .about-me {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #aaa;
+            margin: 0; /* Removed top and bottom margin */
+        }
+
+        .location {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600; /* Adjusted font weight */
+            font-size: 16px;
+            color: #aaa;
+            margin: 0; /* Removed top and bottom margin */
+        }
+
+        /* Style the circular profile image */
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+            outline: none; /* Remove blue outline */
+        }
+
+        /* Style the icons container */
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+
+        /* Improve link styles */
+        a {
+            color: #00aaff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0077cc;
+        }
+
+        /* Banner box styles */
+        .banner-box {
+            background-color: #1e2022;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align items to the left side */
+            gap: 20px;
+            width: 300px;
+        }
+
+        /* Banner styles */
+        .banner {
+            max-width: 100%; /* Adjust width as needed */
+        }
+    </style>
+    <title>Callum Duncan</title>
+</head>
+<body>
+    <div class="center-content">
+        <div class="profile-section">
+            <div>
+                <img src="img/96197413.jpeg" alt="Profile Image" class="profile-image">
+            </div>
+            <div>
+                <i class="fas fa-code fa-5x white"></i>
+                <h2 class="profile-name">Callum Duncan</h2>
+                <p class="about-me">16 y/o computer enthusiast</p>
+                <p class="location">📍Manchester</p>
+                <div class="icon-container">
+                    <a href="https://github.com/csduncan06"><img src="img/github.png" alt="GitHub" width="34" height="34"></a>
+                    <a href="https://tryhackme.com/P/Checksum256"><img src="img/thm.png" alt="TryHackMe" width="34" height="34"></a>
+                    <a href="https://blueteamlabs.online/home/user/checksum"><img src="img/btlo.png" alt="BTLO" width="34" height="34"></a>
+                    <a href="https://discord.com/users/780905552381214780"><img src="img/discord.png" alt="Discord" width="34" height="34"></a>
+                </div>
+            </div>
+        </div>
+        <div class="neofetch">
+            <pre>
+root@checksum
+
+OS: Ubuntu 22.04.2 LTS x86_64
+Hobbies: Security, Linux, IoT
+Alias: csduncan/cs/checksum
+            </pre>
+        </div>
+    </div>
+</body>
+</html>
