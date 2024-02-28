@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset some default styles */
+        body, h1, h2, p, a {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Dark theme */
+        body {
+            background-color: #181a1b;
+            color: #ffffff;
+        }
+
+        /* Center content */
+        .center-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        /* Style the section with profile info */
+        .profile-section {
+            background-color: #1e2022;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            margin-bottom: 20px;
+            display: flex; /* Added display flex for layout */
+            align-items: center; /* Align items vertically */
+            gap: 20px; /* Add gap between elements */
+        }
+
+        /* Add styles for the Callum Duncan and location */
+        .profile-name {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700; /* Increased font weight */
+            font-size: 24px;
+            margin: 0; /* Removed top and bottom margin */
+        }
+
+        .location {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600; /* Adjusted font weight */
+            font-size: 16px;
+            color: #aaa;
+            margin: 0; /* Removed top and bottom margin */
+        }
+
+        /* Improve link styles */
+        a {
+            color: #00aaff;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0077cc;
+        }
+
+        /* Tool card styles */
+        .tool-card {
+            background-color: #1e2022;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start; /* Align items to the left side */
+            gap: 20px;
+            width: 300px;
+            margin-bottom: 20px;
+        }
+
+        .tool-title {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            color: #ffffff;
+            margin: 0;
+        }
+
+        .tool-description {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #aaa;
+            margin: 0;
+        }
+        .underline {
+            text-decoration: underline;
+        }
+    </style>
+    <title>Tools - Callum Duncan</title>
+</head>
+<body>
+    <div class="center-content">
+        <a href="tools/ip.php" class="tool-card">
+            <h3 class="tool-title underline">/ip</h3>
+            <p class="tool-description">Displays current IPv4 address</p>
+        </a>
+        
+    </div>
+</body>
+</html>
